@@ -1,0 +1,38 @@
+.garden-mixer{
+  flex :1;
+  background: #dfdfdf;
+  display: flex;
+}
+
+.channels{
+  display: flex;
+  flex: 1;
+}
+
+.mixer-channel{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.mixer-channel__header{
+  margin-right: 5px;
+  padding: 10px;
+  display: flex;
+  background: purple;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  flex-direction: column;
+}
+
+.mixer-channel__header > input{
+  width: 80%;
+}
+
+.mixer-channel__controls{
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
